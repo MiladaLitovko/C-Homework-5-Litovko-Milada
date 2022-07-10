@@ -5,9 +5,9 @@
 [-4, -6, 89, 6] -> 0
 */
 
-Zadacha34();
+Zadacha36();
 
-void Zadacha34()
+void Zadacha36()
 {
     int size = 4;
     int[] array = new int[size];
@@ -26,7 +26,7 @@ void SumOddNumbers(int[] array)
             sum = sum + array[i];
         }
     }
-    Console.WriteLine($"Сумма элементов, стоящих на нечётных позиция равна: {sum}");
+    Console.WriteLine($"Сумма элементов, стоящих на нечётных позициях равна: {sum}");
 }
 
 
